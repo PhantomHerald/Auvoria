@@ -35,7 +35,7 @@ const Navbar = () => {
       {
         y: 0,
         opacity: 1,
-        duration: 1,
+        duration: 0.5,
         ease: "power3.inOut",
         stagger: 0.2, 
         delay: 0.2,   
