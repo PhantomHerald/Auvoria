@@ -22,7 +22,8 @@ export default function Home() {
       width: "100%",
       height: "100%",
       bottom: "0",
-      left: "0",
+      left: "1",
+
       transform: "none",
       scrollTrigger: {
         trigger: ".img-container",
@@ -54,7 +55,7 @@ export default function Home() {
 
        
       </section>
-      <div className="img-container absolute left-1/2 bottom-[-82vmin] -translate-x-1/2 w-[70vmin] h-[140vmin] rounded-t-[50%] overflow-hidden border border-transparent scale-70">
+      <div className="img-container absolute left-1/2 bottom-[-82vmin] -translate-x-1/2 w-[70vmin] h-[140vmin] rounded-t-[50%] overflow-hidden border border-transparent scale-70 items-center justify-center flex">
         <Image
           src="/visualsofdana-T5pL6ciEn-I-unsplash.jpg"
           alt="Auvoria Hotel"
