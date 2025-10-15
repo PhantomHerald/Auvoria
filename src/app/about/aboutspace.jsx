@@ -8,7 +8,7 @@ const raleway = Raleway({
 
 const aboutspace = () => {
   return (
-    <section className="section-2 mt-120 ">
+    <section className="section-2 mt-80 ">
        {/*    <div className="grid grid-cols-2 gap-4 justify-center items-center">
           <div className="section-2-h1 col-span-2 text-center mb-8">
           <h2 className={`${raleway.className} text-[clamp(24px,5vw,72px)] h-100dvh w-100dvw` }>

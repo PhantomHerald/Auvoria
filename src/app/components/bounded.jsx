@@ -15,7 +15,7 @@ const Bounded = forwardRef(function Bounded(
       )}
       {...restProps}
     >
-      <div className="mx-auto w-full max-w-6xl">{children}</div>
+      <div className="mx-auto w-full max-w-full p-5">{children}</div>
     </Comp>
   );
 });
